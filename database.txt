@@ -138,3 +138,81 @@ Um laser led pode ser um emissor de um sinal ótico para transmitir dados na fib
 A informação transmitida utilizando fibra ótica é a variação da frequência ao longo do tempo. F
 As diferentes categorias dos cabos pares de cobre obrigam a um cabo com mais nível de isolamento. V
 O conetor SC é usado para meios físicos de cobre. F
+O núcleo da Internet é formado por um operador único que controla os routers de core. F
+Uma ligação via Internet entre Porto e Lisboa envolve obrigatoriamente um operador ISP Tier 1. F
+A Gigabit Passive Optical Network (GPON) é assimétrica em termos de canais de upstream e downstream.V
+Um protocolo define unicamente o formato das mensagens, sendo as ações definidas pela aplicação. F
+Na tecnologia de acesso por cabo os canais de dados são partilhados pelos vários subscritores. V
+A GPON utiliza FDM no envio de dados no canal upstream. F
+O cabo coaxial permite a transmissão de dados e vídeo no mesmo cabo. V
+A tecnologia de acesso por cabo permite débitos binários máximos constantes independentemente do número clientes ligados no cable headend. F
+O atraso é uma medida que varia ao longo do tempo entre quaisquer dois dispositivos numa rede. V
+O atraso não é influenciado pela taxa de ocupação dos buffers por onde o pacote passa. F
+Quando diminui o volume de dados numa ligação de baixo débito, o tempo de propagação aumenta. F
+Quando um router recebe um pacote e tiver os buffers cheios informa o dispositivo de origem que o pacote foi descartado. F
+Cada camada acrescenta um cabeçalho aos dados recebidos da camada superior durante o processo de desencapsulamento ocorrido durante a chegada de um pacote a um dado nó. F
+A utilização de camadas introduz atrasos e possíveis perdas de pacotes. F
+O modelo TCP é composto por mais três camadas que o modelo TCP/IP. F
+As interfaces estão bem definidas podendo uma camada ser substituída por uma nova implementação. V
+A camada de rede faz a correção de erros na comunicação entre routers. F
+A camada de ligação define o método de controlo de acesso das estações ao meio físico de transmissão. V
+A camada de transporte adiciona um trailer ao datagrama que pode ser utilizado para deteção e correção de erros. F
+Os protocolos de camada dois são executados entre máquinas adjacentes (ligadas por um meio físico). V
+Uma ligação persistente é mais eficiente que uma ligação não-persistente se existir mais de um pedido para o mesmo host. V
+O URL é composto por duas partes, o path name e o host name, por esta ordem. F
+O protocolo HTTP permite o envio de dados para o servidor. V
+Numa resposta 200 OK a um pedido GET, o cabeçalho Content-Type indica qual o tipo de objeto retornado no corpo da mensagem. V
+No protocolo SMTP, o comando MAIL FROM pode referenciar mais do que um remetente da mensagem. F
+O protocolo POP pode ser utilizado para o envio e receção de mensagens. F
+O modo download-and-delete do protocolo POP3 apaga a mensagem do servidor após a sua receção no user agent do cliente. V
+O protocolo SMTP é usado para transmitir mensagens entre servidores, sobre o porto TCP 110. F
+O endereço que aparecerá como endereço de origem no user agent do destino é maria@mail.pt. V
+O endereço de e-mail de destino utilizado no encaminhamento da mensagem entre servidores é artur@isel.pt. F
+O e-mail não vai ser entregue ao destinatário porque os campos "MAIL FROM:" e "From:" são distintos. F
+A ligação TCP associada ao protocolo SMTP só é estabelecida depois do cliente ter enviado o comando "HELO test.pt". F
+Um resource record do tipo AS retorna os authoritative servers de um domínio. F
+O servidor de DNS local guarda as respostas dos pedidos para evitar repetir a consulta. V
+A raiz da árvore de DNS é definida pelo domínio “.” V
+Um resource record do tipo PTR permite mapear um endereço IP num nome. V
+O serviço de DNS é um sistema hierárquico com a base de dados distribuída por vários servidores. V
+A destruição de todos os servidores raiz tornaria, imediatamente, o serviço de DNS inoperacional. F
+Um pedido do tipo NS tem como resposta os servidores de SMTP do domínio indicado no pedido. F
+O endereço IP de um servidor de HTTP é obtido fazendo um pedido do tipo A e indicando o nome do servidor de HTTP. V
+Um participante no protocolo BitTorrent envia e recebe chunks de todos os seus vizinhos. F
+Os algoritmos principais associados ao streaming multimédia DASH são executados nos servidores do prestador de serviços. F
+As CDN permitem libertar a carga sobre os servidores originais. V
+As CDN permitem acelerar a entrega dos conteúdos estáticos dos documentos solicitados. V
+No UDP, o campo Receive Window indica a dimensão máxima de dados que um host pode receber naquele momento para todas as ligações de UDP. F
+Os números do porto de origem e destino são opcionais. F
+Em caso de perda, a sua retransmissão é solicitada pelo sistema operativo da máquina destino. F
+Pode executar a função de deteção de erros. V
+Num meio de transmissão fiável, é necessário o mecanismo que inclui mensagens ACK e NACK. F
+Os números de sequência introduzidos no mecanismo não permitem contabilizar o número de segmentos transmitidos. V
+O uso de temporizadores não previne situações em que nem o recetor nem o emissor saberiam se haveria dados por confirmar. F
+O Go-Back-N necessita de mais espaço de armazenamento no seu processo de operação quando comparado com o Selective Repeat. F
+Uma ligação TCP circula entre dois sockets identificados por endereço e porto de origem e pelo endereço e porto de destino. V
+O campo OPTIONS pode ter até 320 bits. V
+O mecanismo de triple duplicate ACK serve para acelerar a retransmissão de segmentos perdidos. V
+O bit FIN é usado na abertura normal de uma ligação. F
+A avaliação das tabelas de encaminhamento dos routers é feita com o endereço IP de destino de um datagrama. V
+Se o tráfego for UDP as tabelas de comutação não são avaliadas, uma vez que o UDP não estabelece ligações. F
+A coluna Interface numa tabela de encaminhamento identifica a interface do equipamento indicado na coluna Gateway. F
+A necessidade de fragmentação advém do facto do MTU de uma ligação ser inferior ao tamanho do datagrama IP em questão. V
+Caso seja necessário fragmentar um datagrama, apenas o campo fragment offset sofre alterações de valores. Todos os restantes campos do cabeçalho do datagrama permanecem iguais. F
+Os fragmentos podem ser novamente agrupados a cada salto, caso a próxima ligação possua um MTU superior ao tamanho do datagrama original. F
+O campo fragment offset indica a posição onde os dados transportados devem ser colocados aquando da recomposição dos datagramas fragmentados. V
+É considerado parte do protocolo UDP, mas, em termos de arquitetura em camadas, está na camada logo acima do IP, pois mensagens ICMP são encapsuladas dentro de datagramas IP. F
+Quando o comando ping envia uma mensagem ICMP do tipo 8 código 0 para um host específico, o host destino, ao ver a solicitação de eco, devolve uma resposta de ICMP do tipo 1 código 0. F
+O ICMP não é usado para associar um endereço lógico a um endereço físico. V
+É um mecanismo usado por switches para enviar notificações de problemas ocorridos com datagramas IP. F
+O NAT deve ser usado em todas as ligações entre operadores devido à segurança que fornece. F
+O objetivo inicial deste mecanismo centrou-se na escassez de endereços IPv4. V
+Apenas o endereço IP de origem é manipulado pelo NAT. F
+Os pedidos de resolução ARP são enviados via broadcast. V
+A resposta a um pedido ARP é unicast. V
+Após a receção do par endereço IP/endereço MAC, esta nunca irá expirar. F
+O ARP usa o protocolo ICMP para obter o endereço MAC associado a um determinado endereço IP. F
+As fibras óticas do tipo monomodo distinguem-se das fibras óticas do tipo multimodo pela dimensão mais reduzida do seu núcleo. V
+Uma ligação por micro-ondas é um exemplo de uma transmissão através de um meio não guiado. V
+É possível a utilização de uma fibra ótica com diferentes conectores em cada extremo. V
+1000Base-LX refere-se a um transceiver de fibra ótica de 10GBit/s. F
