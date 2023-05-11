@@ -1,0 +1,140 @@
+Os Internet Service Providers (ISPs) podem estar ligados entre si por pontos de rede designados por Internet Exchange Points (IXPs). V
+Um ISP Tier 2, é essencialmente um transit provider. Os seus recursos permitem o acesso a qualquer rede e não contratam serviços de transito a outros service providers. F
+O encaminhamento de tráfego na infraestrutura da rede de núcleo de um ISP, baseia-se em comutação de circuitos. Com esta abordagem, é otimizada a utilização da largura de banda dos links de rede. F
+A camada aplicacional do modelo OSI é sempre implementada pelos elementos de rede que constituem a rede de núcleo do Internet Service Provider (ISP). Com base na informação do cabeçalho da camada aplicacional é determinado o caminho dos pacotes ao longo da rede núcleo dos ISPs. F
+A tecnologia de acesso por cabo coaxial, com o standard DOCSIS, assegura que cada end user tem um acesso dedicado e não partilhado à rede do ISP. F
+A tecnologia GPON providencia acesso a clientes (edge hosts) através de uma rede de fibra ótica. Este tipo de acesso baseia-se em Frequency Division Multiplexing (FDM), no qual diferentes canais em diferentes frequências, são usados para separar o tráfego dos diferentes clientes no acesso. F
+O Optical Line Terminal (OLT) está fisicamente situado no cliente final e assegura o acesso a vários utilizadores através de Time Division Multiplexing (TDM). F
+Uma rede de acesso sem fios 802.11b/g/n/ac/ax (WiFi) com recurso ao FDM, assegura canais de frequência distintos para os clientes acederem à rede. V
+Numa rede partilhada o controlo de acesso ao meio físico é efetuado na camada física. F
+Os routers descartam os segmentos com erro de checksum. F
+A camada rede é executada nos routers e nos switches. F
+As tramas (frames) são as mensagens da camada de ligação (link layer). V
+O protocolo SMTP é utilizado para o envio de e-mails entre servidores de correio e entre o cliente e o servidor de correio. V
+O protocolo IMAP permite que os utilizadores acedam às suas mensagens armazenadas no servidor de correio, mantendo a sincronização entre diferentes dispositivos. V
+O protocolo IMAP é responsável pela entrega final de e-mails na caixa de entrada do destinatário, enquanto o SMTP é utilizado apenas para armazenar e-mails temporariamente no servidor. F
+Quando um e-mail é enviado utilizando o protocolo SMTP, ele é armazenado no servidor de correio do remetente até que o destinatário o leia e o descarregue utilizando o protocolo IMAP. F
+O CNAME é usado para resolver um nome de um servidor de e-mail. F
+O comando nslookup permite apenas resolver endereços IP na base de dados DNS. F
+Os name records do tipo CNAME são os registos mais comuns no DNS. F
+O DNS está presente na camada de aplicação. V
+O comando utilizado para gerar o resultado da imagem foi nslookup. V
+O type utilizado no pedido de DNS foi MX. F
+A resposta foi devolvida por um servidor não autoritativo (sem autoridade sobre a informação). V
+O endereço 172.20.1.1 é o endereço IPv4 do servidor de nomes ns1.google.com. F
+Os peers são servidores sempre disponíveis e normalmente com endereço IP dedicado. F
+Um participante no protocolo BitTorrent envia e recebe chunks sempre dos mesmos vizinhos, desde o início até ao final do download. F
+No protocolo BitTorrent os chunks do mesmo ficheiro têm, na sua maioria, o mesmo tamanho. V
+No P2P enquanto um participante estiver a fazer download não pode fazer upload. F
+Uma CDN é uma rede de distribuição de conteúdo que consiste sempre num único servidor, centralizado, sem hipótese de ser replicado. F
+A CDN permite substituir por completo os servidores originais. F
+O DASH usa HTTP para transferir os ficheiros do servidor para o cliente. V
+DASH é uma tecnologia exclusiva para a transmissão de áudio. F
+O cabeçalho de um segmento UDP tem a mesma dimensão do cabeçalho de um segmento TCP. F
+O campo length contém unicamente o valor do tamanho dos dados transportados. F
+Quando é recebido um segmento ACK de confirmação é incrementado o número de sequência. F
+Transfere dados após o estabelecimento de uma ligação com uma máquina remota. F
+O protocolo Selective Repeat mantém a eficiência com janelas maiores que 1+2a. V
+No protocolo Go-Back-N o emissor cria um temporizador por cada mensagem enviada. F
+O Send-and-Wait (ou Stop-and-Wait) só precisa de 2 números de sequência para operar corretamente. V
+Numa situação sem erros, e caso a janela seja a mesma, o Selective Repeat e o Go-Back-N têm a mesma eficiência. V
+O TCP fornece uma comunicação fiável bidirecional, não em simultâneo, entre hosts. F
+Uma ligação TCP é identificada pelo endereço IP e porto da máquina local, e pelo endereço IP e porto da máquina remota. V
+Um segmento não confirmado é reenviado após a receção de 1 ACK duplicado a solicitar o segmento. F
+Se um host desejar terminar a sessão TCP, através de segmentos FIN, não poderão ser observados mais dados a circular naquela sessão TCP. F
+O primeiro segmento TCP de uma ligação tem sempre o bit ACK inativo. V
+O campo Options pode ter até 320 bits. V
+O campo Header Length é usado para determinar em que posição de um segmento TCP começam os dados. V
+O bit FIN é usado no fecho normal de uma ligação. V
+A Internet utiliza a tecnologia de comutação de pacotes. V
+Na tecnologia GPON é utilizado TDMA como mecanismo de acesso ao meio no sentido de upstream. V
+Na tecnologia de redes de acesso por cabo, baseadas em EuroDOCSIS, o acesso ao meio não é partilhado. F
+Um protocolo define unicamente o formato das mensagens sendo as ações definidas pela aplicação. F
+A tecnologia DSL usa preferencialmente como meio físico a fibra ótica. F
+O splitter DSL separa a banda de frequências da voz da banda de frequências dos dados. V
+A rede de um operador por cabo usa multiplexagem temporal no controlo de acesso ao canal de dados no sentido descendente (transmissão no sentido do prestador de serviços para o utilizador). F
+Num acesso por cabo, a velocidade de acesso a qualquer site da Internet é garantida pelo operador. F
+A taxa de ocupação das filas de espera num router influencia inversamente a latência. F
+Em situação de congestão, a retransmissão de pacotes, o mais cedo possível, ajuda a diminuir a congestão. F
+Um dispositivo identifica a congestão quando deteta perda de pacotes e o aumento da latência. V
+De uma forma genérica ocorre congestão quando o débito de dados à entrada de um equipamento é superior ao débito de dados à saída. V
+Todas as camadas definem mecanismos de deteção de erros. F
+As camadas Apresentação e Sessão são parte integrante do modelo TCP/IP. F
+Uma das vantagens dos modelos por camadas é a sua modularização. V
+A camada de Transporte faz o encapsulamento dos dados vindos da camada de Rede. F
+A camada de aplicação é responsável pela apresentação visual dos dados ao utilizador. F
+A camada de transporte implementa sempre mecanismos de recuperação de dados. F
+A arquitetura por camadas obriga a reescrever todas as aplicações quando se altera o meio de acesso na camada física. F
+A camada de rede é responsável pela implementação de protocolos de endereçamento como o IP. V
+Recorre ao protocolo UDP para tornar o acesso aos conteúdos mais rápido. F
+Em ligações não persistentes múltiplos objetos são obtidos através de múltiplas ligações. V
+O código de resposta "400 Bad Request" indica que o objeto solicitado não foi encontrado no servidor. F
+O porto 80 é o porto usado por definição pelo servidor. V
+No protocolo SMTP, as mensagens e o seu conteúdo são transmitidos em ASCII a 7 bits. V
+O SMTP é um dos protocolos que se pode utilizar quando se consulta a caixa de correio. F
+O IMAP permite a criação pastas na caixa de correio localizada no servidor. V
+No protocolo SMTP, o servidor de destino contacta o servidor de origem responsável por enviar o email, não existindo outros servidores de SMTP por onde a mensagem circule. F
+O protocolo IMAP permite organizar as mensagens em pastas no servidor. V
+O protocolo SMTP recorre a UDP. F
+É possível consultar mensagens de email através de HTTP utilizando serviços como o Gmail, Hotmail ou o Yahoo. V
+O protocolo SMTP é usado para transmitir mensagens entre servidores. V
+Um resource record do tipo A associa um nome a um endereço IP. V
+Um resource record do tipo MX associa um nome a um servidor www. F
+Um resource record do tipo NS associa um nome a um servidor autoritário de um domínio. V
+Um resource record do tipo CNAME associa um nome a um nome. V
+O comando ipconfig, sem opções adicionais, fornece informações sobre os servidores DNS. F
+O DNS utiliza, por omissão, o protocolo de transporte TCP. F
+O formato de um resource record inclui o TTL. V
+Um servidor DNS local tem que estar na hierarquia de rede. F
+Um participante no protocolo BitTorrent atua sempre como cliente. F
+O DASH permite adaptar o débito de acordo com as necessidades do cliente. V
+Todos os conteúdos de uma CDN estão localizados nos servidores originais. F
+As CDNs permitem acelerar a entrega dos conteúdos dinâmicos dos documentos solicitados, mas não dos estáticos. F
+O protocolo UDP permite a deteção de erros nos dados transportados no segmento. V
+O tamanho do cabeçalho do segmento UDP é sempre 8 bytes. V
+Existe estabelecimento de uma ligação no protocolo UDP. F
+O campo checksum permite a verificação de erros. V
+O Go-Back-N e o Selective Repeat não tentam reduzir a latência. F
+No protocolo Go-Back-N o emissor possui um temporizador para cada segmento ainda não reconhecido.  F
+No Selective Repeat, se o tamanho da janela for grande e o produto do atraso com a largura de banda também for grande, muitos segmentos serão automaticamente retransmitidos. F
+No Send-and-Wait existe receção de segmentos fora de ordem. F
+Não implementa qualquer mecanismo de retransmissão. F
+Os segmentos TCP são fragmentados se excederem a dimensão máxima das mensagens da camada de aplicação. F
+Permite detetar erros no segmento TCP através do checksum. V
+Implementa mecanismos de controlo de fluxo. V
+O mecanismo de delayed ACK serve para reduzir o número de ACKs transmitidos desnecessariamente. V
+O campo OPTIONS pode ter até 320 bits. V
+O mecanismo de duplicate ACK serve para acelerar a retransmissão de segmentos perdidos. V
+O bit FIN é usado no fecho normal de uma ligação. V
+A camada de Rede no modelo OSI disponibiliza serviços à camada abaixo. F
+A camada de Rede no modelo OSI garante entrega das mensagens ao destinatário, sem erros. F
+A camada de Rede no modelo OSI implementa os mecanismos de encaminhamento das mensagens usando routers. V
+A camada de Rede no modelo OSI pressupõe que todas as redes interligadas possuem o mesmo protocolo da camada de ligação. F
+O campo version tem sempre o valor 6 tanto em IPv4 como em IPv6. F
+O cabeçalho tem uma dimensão máxima de 60 bits. F
+O campo de identificação é sempre o mesmo em todas as comunicações que ocorrem entre dois dispositivos, se na mesma ligação TCP. F
+O campo TTL indica durante quantos segundos o datagrama pode circular na rede, sendo decrementado de um em cada router que atravessa. F
+As respostas do servidor podem ser em unicast ou broadcast dependendo da topologia da rede. V
+As mensagens de DHCP circulam sobre TCP. F
+As mensagens de DHCP entre o DHCP relay e o servidor de DHCP são sempre unicast. V
+Fornece unicamente o endereço IP do servidor de DNS, o endereço do gateway por omissão e o endereço a atribuir ao dispositivo requerente. F
+Um ICMP echo reply de resposta a um ICMP echo request tem o mesmo número de sequência. V
+As respostas de ICMP incluem o cabeçalho IP do datagrama que provocou o erro. V
+Algumas implementações do traceroute utilizam mensagens de ICMP echo request e echo reply. V
+As mensagens de ICMP são transportadas sobre UDP. F
+Apenas a interface de saída do router da rede privada tem um endereço público. V
+Pode alterar dados nos protocolos da camada de rede e transporte. V
+Viola o princípio de end-to-end devido às manipulações em diferentes campos do datagrama. V
+Apenas o endereço IP de destino é manipulado pelo NAT. F
+O campo do preâmbulo serve para sincronização do relógio de quem vai receber a trama. V
+Possuem um campo que permite verificar a integridade só do payload. F
+O campo payload tem uma dimensão máxima de 1500 Bytes. V
+Utiliza os mesmos endereços da camada de rede. F
+O protocolo ARP permite obter o endereço IP a partir de um dado endereço MAC. F
+Os pedidos de ARP são enviados em broadcast. V
+Um PC tem residente na sua tabela ARP o mapeamento entre o seu endereço IP e o seu endereço MAC. F
+Os mapeamentos dinâmicos de uma tabela ARP têm um tempo de vida associado. V
+Um laser led pode ser um emissor de um sinal ótico para transmitir dados na fibra ótica. V
+A informação transmitida utilizando fibra ótica é a variação da frequência ao longo do tempo. F
+As diferentes categorias dos cabos pares de cobre obrigam a um cabo com mais nível de isolamento. V
+O conetor SC é usado para meios físicos de cobre. F
